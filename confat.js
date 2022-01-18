@@ -3,16 +3,16 @@ const chalk = require('chalk')
 const setting = JSON.parse(fs.readFileSync('./setting.json'));
 
 // Other
-global.owner = ["6285342106390","62887435047326","62887435047326"]
-global.packname = '© Alphabot MD'
-global.youtube = 'https://youtube.com/c/ZeeoneOfc'
-global.author = 'ZeeoneOfc'
-global.sessionName = 'session'
+global.owner = ["19205365323","19205365323","19205365323"]
+global.packname = '© YAanzbot'
+global.youtube = 'https://youtube.com/'
+global.author = 'YanzzOfc'
+global.sessionName = 'YANZ x BOTZ'
 global.flaming = "https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text="
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: '🤗Done, Oke Desu~',
+    sukses: '🤗Done, Maszeh~',
     admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
     botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
     owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
@@ -22,7 +22,7 @@ global.mess = {
     errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
     wait: '⏳ Sedang Di Proses',
 	lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
-	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
+	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules di desc ya\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
 global.thumb = fs.readFileSync(setting.thumbnail)
 
